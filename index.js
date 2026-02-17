@@ -11,4 +11,35 @@ console.log(productCategories.length);
 productCategories[1] = "pen";
 
 //e
-productCategories
+console.log(productCategories);
+
+// Exercise 2: Apush, pop, shift, i=unshift, splice
+
+let inventory = ["10", "20", "30", "40"];
+//a
+inventory.push("40");
+console.log(inventory);
+//b
+inventory.pop();
+console.log(inventory);
+//c
+inventory.shift();
+console.log(inventory);
+//d
+inventory.unshift("0");
+console.log(inventory);
+//e
+inventory.splice(1, 1, 25, 35);
+console.log(inventory);
+
+// Exercise 3: Shallow Copying of Arrays and the refernce trap
+//a
+const originalScores = [90, 85, 78]
+
+//b
+const referenceCopy = originalScores;
+console.log(referenceCopy);
+//c
+referenceCopy[0] = 100;
+console.log("Original Scores:", originalScores);
+console.log("Reference Copy:", referenceCopy);
