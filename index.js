@@ -50,3 +50,18 @@ referenceCopy[0] = 100;
 console.log("Original Scores:", originalScores);
 console.log("Reference Copy:", referenceCopy);
 
+// Exercise 4: finding elements by Index and Value
+
+const studentNames = ["Alice", "Bob", "Charlie", "Alice", "David"];
+//a 
+// the indexof, lastindexof = i the fiest cindition is successful it will print out true, if not it will print out false
+console.log(studentNames.indexOf("Alice"));
+
+//b
+console.log(studentNames.lastIndexOf("Alice"));
+
+//c
+console.log(studentNames.includes("Charlie"));
+
+//d
+console.log(studentNames.includes("Eve"));
