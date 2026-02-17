@@ -37,9 +37,16 @@ console.log(inventory);
 const originalScores = [90, 85, 78]
 
 //b
+//The spread operator in Java 
+//
+
+//c
 const referenceCopy = originalScores;
 console.log(referenceCopy);
-//c
+//d
+const spreedCopy = [...originalScores]; // creates a new array with the same elements 
+//e
 referenceCopy[0] = 100;
 console.log("Original Scores:", originalScores);
 console.log("Reference Copy:", referenceCopy);
+
